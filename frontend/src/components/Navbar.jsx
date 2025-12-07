@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react' // 1. useState import karein
+import React, { useContext, useState } from 'react' 
 import { MdStars } from "react-icons/md"
 import { FaUserCircle } from "react-icons/fa"
 import logo from '../assets/logo1.png'
@@ -9,8 +9,6 @@ const Navbar = () => {
 
     const { user, setShowLogin, logout, credit } = useContext(AppContext)
     const navigate = useNavigate()
-
-    // 2. Menu ke liye state banayein
     const [showMenu, setShowMenu] = useState(false)
 
     return (
