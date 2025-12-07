@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <motion.div initial={{opacity:0.2, y:100}}  transition={{duration:1}}  whileInView={{opacity:1, y:0}}  viewport={{ once:true}} className='flex flex-col items-center justify-center my-10 p-20'>
 
-        <h1 className='text-3xl sm:text-4xl font-semibold pb-2 text-white'>Top Customers</h1>
+        <h1 className='text-3xl sm:text-4xl font-semibold pb-2 text-white'>Customers Reviews</h1>
         <p className='text-gray-400 pb-12'>What Our Users Are Saying</p>
 
         <div className='flex flex-wrap items-center gap-6 p-10'>
